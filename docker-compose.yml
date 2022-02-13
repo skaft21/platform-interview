@@ -1,0 +1,9 @@
+---
+
+version: "3.9"
+services:
+
+  web:
+    image: 'platform-interview:0.0.1-SNAPSHOT'
+    ports: 
+      - "8080:8080"
