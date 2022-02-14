@@ -5,6 +5,7 @@ The team at Loanstreet is onboarding a new application, and the developers need 
 
 ***PLEASE DO NOT WORK MORE THAN SIX HOURS ON THIS PROJECT***
 
+---
 
 ## Requirements
 
@@ -16,6 +17,7 @@ Take this opportunity to show us how you work!
 * Phase 2 - Role-based Scenarios
 * Phase 3 - Deployment
 
+---
 
 ## Roles
 
@@ -24,10 +26,13 @@ At Loanstreet, the Platform team has several roles.  Each role represents an are
 2. Architect - Help build solid infrastructural foundations for our application stack.  Focuses on Cloud architecture, redundancy, DR, scaling, and generally setting the infrastructure up for success.
 3. Security Engineer - Help ensure that infrastructure and applications meet compliance targets and provide strong semantic security (not always the same thing!)
 
+---
 
 ## Project
 
 You'll find the outline for each phase of the project below.  Each phase should take roughly 1-2 hours.  Bring your experience, problem solving skills, and technical expertise to bear and show us what you can do!
+
+---
 
 ### Phase 1
 
@@ -101,6 +106,7 @@ The team is ready to start pushing continuous updates to their application in pr
 
 Describe how you would set up and automate regular static code scans and docker image scans.  Describe how you would design this system such that vulnerable application artifacts don't make it to production.  Note that the resulting solution should be manageable by the application team once finished.
 
+---
 
 ## Feedback (Optional)
 
