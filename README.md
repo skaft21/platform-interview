@@ -25,7 +25,7 @@ Take this opportunity to show us how you work!
 
 At Loanstreet, the Platform team has several roles.  Each role represents an area of focus for our team.  In Phase 2 and Phase 3, you will be asked to pick one of the following roles for the remainder of the project:
 1. Developer Advocate - Help advocate for and improve the developer experience.  Focuses on velocity, instrumentation, and tooling
-2. Architect - Help build solid infrastructural foundations for our application stack.  Focuses on Cloud architecture, redundancy, DR, scaling, and generally setting the infrastructure up for success.
+2. Architect - Help build solid infrastructural foundations for our application stack.  Focuses on Cloud architecture, redundancy, Disaster Recovery, scaling, and generally setting the infrastructure up for success.
 3. Security Engineer - Help ensure that infrastructure and applications meet compliance targets and provide strong semantic security (not always the same thing!)
 
 ---
@@ -88,7 +88,7 @@ Pick from one of the follow on projects below, and outline how you would impleme
 
 The complexity of our new application has grown dramatically since we started.  The developers have done a great job of choosing database and caching technologies, but now they're starting to hit performance and stability issues that they're not sure how to debug.
 
-One of the senior devs recently attended a conference on observability (O11y) and suspects that a solid observability tool would help them make sense of application problems more scalably.  However, they've left the choice of O11y tools to you given your Platform Team expertise.
+One of the senior devs recently attended a conference on observability (o11y) and suspects that a solid observability tool would help them make sense of application problems more scalably.  However, they've left the choice of o11y tools to you given your Platform Team expertise.
 
 Your job is to choose a monitoring and metrics platform that will meet the development team's needs.  The company is open to both open source and paid options, and they've asked you to do some research on what we should choose.  The CTO has noted that they've used New Relic in the past, but haven't been entirely happy with it.  
 
@@ -98,7 +98,7 @@ Build a case for your preferred platform.  Your analysis should include what you
 
 The team is ready to start pushing to production, but they're concerned about scale.  They've noted from local testing that each application backend can handle at most 500 requests / sec.  They're looking to you to help spread client load across multiple backends and implement some form of metrics-based autoscaling.
 
-Write a rationale for expanding on your work in Phase 2.  How would you build out a platform on AWS that uses your container ochestrator of choice to scale workloads by number of requests.  Given this is a fairly involved request, a rationale or annotated diagram is sufficient (no code required).  
+Write a rationale for expanding on your work in Phase 2.  How would you build out a platform on AWS that uses your container ochestrator of choice to scale workloads by number of requests?  Given this is a fairly involved request, a rationale or annotated diagram is sufficient (no code required).  
 
 Be sure to note the components needed to implement metrics based scaling since this work will be distributed across the team.
 
