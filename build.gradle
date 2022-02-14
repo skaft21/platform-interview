@@ -8,7 +8,7 @@ apply plugin: 'java'
 apply plugin: 'io.spring.dependency-management'
 apply plugin: 'org.springframework.boot'
 
-group = 'com.loanstreet.devops-project'
+group = 'com.loanstreet.platform.interview'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '11'
 

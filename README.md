@@ -5,6 +5,7 @@ The team at Loanstreet is onboarding a new application, and the developers need 
 
 ***PLEASE DO NOT WORK MORE THAN SIX HOURS ON THIS PROJECT***
 
+
 ## Requirements
 
 The project as defined has three phases, each of which should take 1-2 hours.  Given the time constraints, its recommended to take the simplest path to the objective, but individual technology choices are left to the candidate.
@@ -15,12 +16,14 @@ Take this opportunity to show us how you work!
 * Phase 2 - Role-based Scenarios
 * Phase 3 - Deployment
 
+
 ## Roles
 
 At Loanstreet, the Platform team has several roles.  Each role represents an area of focus for our team.  In Phase 2 and Phase 3, you will be asked to pick one of the following roles for the remainder of the project:
 1. Developer Advocate - Help advocate for and improve the developer experience.  Focuses on velocity, instrumentation, and tooling
 2. Architect - Help build solid infrastructural foundations for our application stack.  Focuses on Cloud architecture, redundancy, DR, scaling, and generally setting the infrastructure up for success.
 3. Security Engineer - Help ensure that infrastructure and applications meet compliance targets and provide strong semantic security (not always the same thing!)
+
 
 ## Project
 
@@ -41,6 +44,8 @@ docker run platform-interview:0.0.1-SNAPSHOT --p '8080:8080'
 However, the developer who passed you this information noted that the docker command is not working for her locally.  She thinks this is a problem with the command the application author gave her, but isn't sure.
 
 One of the developers notes that they've heard tools like docker-compose and make can help with codebase management, but they have no experience using them.  They need your help to get this application running locally in a consistent way. 
+
+---
 
 ### Phase 2
 
@@ -63,6 +68,8 @@ Pick a container orchestration tool that's easy to set up both locally and in th
 Since Loanstreet is a finance company, there's a lot of concern on the team about security and privacy.  They're new to containers and want to make sure they're protecting client information at every level.
 
 Implement OWASP best practices for docker containers.
+
+---
 
 ### Phase 3
 
@@ -93,6 +100,7 @@ Be sure to note the components needed to implement metrics based scaling since t
 The team is ready to start pushing continuous updates to their application in production.  However, they've been adding a lot of additional application libraries and want to ensure they're not introducing vulnerabilities into the pipeline.  They've asked you to find a way to automate the detection of insecure libraries.  From your own experience, you know that the docker images the team is packaging are a potential risk as well. 
 
 Describe how you would set up and automate regular static code scans and docker image scans.  Describe how you would design this system such that vulnerable application artifacts don't make it to production.  Note that the resulting solution should be manageable by the application team once finished.
+
 
 ## Feedback (Optional)
 
