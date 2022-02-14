@@ -1,10 +1,10 @@
-package com.loanstreet.devopsproject.devopsproject;
+package com.loanstreet.platform.interview;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DevopsProjectApplicationTests {
+class PlatformInterviewApplicationTests {
 
 	@Test
 	void contextLoads() {
