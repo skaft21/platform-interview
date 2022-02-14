@@ -17,6 +17,8 @@ Take this opportunity to show us how you work!
 * Phase 2 - Role-based Scenarios
 * Phase 3 - Deployment
 
+***PLEASE DO NOT SUBMIT CHANGES TO THIS REPO.  FORK THE REPO AND SEND US THE LINK***
+
 ---
 
 ## Roles
